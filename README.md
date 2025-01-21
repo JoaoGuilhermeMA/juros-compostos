@@ -38,8 +38,15 @@ A calculadora permite:
 
 ---  
 
+### 🛠️ Tecnologias Utilizadas 
+- Ruby para desenvolvimento do sistema.
+- Minitest para a criação e execução de testes automatizados.
+- Git e GitHub para controle de versão e colaboração.
+
+
 <h2 id="instructions">🚀 Instruções </h2>
 
 1. Clone este repositório:
    ```bash
    git clone https://github.com/JoaoGuilhermeMA/juros-compostos
+
