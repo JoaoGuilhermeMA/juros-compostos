@@ -36,4 +36,19 @@ class TesteJurosCompostos < Minitest::Test
     assert_equal 1000, montante
     assert_equal 0, juros
   end
+
+  def test_valor_negativo_principal
+    resultado = calcular_juros_compostos(-1000, 5, 1, 1)
+    assert_equal "Erro: valores negativos não são permitidos", resultado
+  end
+
+  def test_valor_negativo_taxa
+    resultado = calcular_juros_compostos(1000, -5, 1, 1)
+    assert_equal "Erro: valores negativos não são permitidos", resultado
+  end
+
+  def test_valor_negativo_tempo
+    resultado = calcular_juros_compostos(1000, 5, -1, 1)
+    assert_equal "Erro: valores negativos não são permitidos", resultado
+  end
 end
