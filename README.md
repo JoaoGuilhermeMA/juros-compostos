@@ -42,4 +42,4 @@ A calculadora permite:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/JoaoGuilheMA/juros-compostos
+   git clone https://github.com/JoaoGuilhermeMA/juros-compostos
